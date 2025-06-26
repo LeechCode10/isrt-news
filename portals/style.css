@@ -185,3 +185,31 @@ p {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+.ad4 {
+    height: 250px;
+    width: 300px;
+    background-image: url('diddy1.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ad4:hover {
+    background-image: url('diddy2.png');
+}
+
+.ad5 {
+    height: 250px;
+    width: 300px;
+    background-image: url('tshirt.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
