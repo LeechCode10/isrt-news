@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+h1 {
+    font-family: "DM Serif Text", serif;
+    margin: 25px auto;
+    color: white;
+
+}
+
+p {
+    font-weight: 300;
+}
+.logo {
+    display: flex;
+    font-family: "DM Serif Text", serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0.2vh;
+    font-size: 150%;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.logo-part1 {
+    background-color: rgb(25, 25, 153);
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 1vh;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 2vh;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+
+.logo-part2 {
+    color: rgb(25, 25, 153);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    background-color: rgb(238, 250, 255);
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 2vh;
+}
+
+.news-title {
+    background-color: rgb(25, 25, 153);
+    width: 90vh auto;
+    height: auto;
+    padding: 2vh;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+
+p {
+    font-family: "Antic Didone", serif;
+    font-size: 150%;
+    border-top-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+.ad-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.ad1 {
+    height: 250px;
+    width: 300px;
+    background-image: url('oil_ad.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ad1:hover {
+    background-image: url('oil-ad-hover.png');
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+
+.ad2 {
+    height: 250px;
+    width: 300px;
+    background-image: url('bootlick.png');
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.ad2:hover {
+    background-image: url('bootlick-hover.png');
+}
+
+.comment-section {
+    max-height: 350px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: none;
+    gap: 50px;
+    border-radius: 10px;
+    padding: 20px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.comment {
+
+    justify-content: center;
+    flex: 0 0 auto;
+    min-width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: left;
+    padding: 2px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.dp {
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+
+.commenter {
+    justify-content: center;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+}
+
+.comment-heading {
+    color: black;
+    text-align: center;
+}
+.text-comment {
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.ad3 {
+    height: 250px;
+    width: 300px;
+    background-image: url('bcs -club-advertisement.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+h1 {
+    font-family: "DM Serif Text", serif;
+    margin: 25px auto;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    font-family: "DM Serif Text", serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0.2vh;
+    font-size: 150%;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.logo-part1 {
+    background-color: rgb(25, 25, 153);
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 1vh;
+    height: auto;
+    padding-left: 5vh;
+    padding-right: 2vh;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+
+.logo-part2 {
+    color: rgb(25, 25, 153);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    background-color: rgb(238, 250, 255);
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 2vh;
+}
+
+.portals {
+    padding: 20px;
+}
+
+.portal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.teleporter, .titlelink {
+    font-size: 150%;
+    text-decoration: underline;
+    color: black;
+}
+
+.teleporter:hover, .titlelink:hover {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Antic Didone", serif;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.readmore {
+    justify-content: center;
+    font-family: "Antic Didone", serif;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 600;
+    height: 50px;
+    width: 90px;
+    padding: 2px;
+    background-color: rgb(25, 25, 153);
+    color: white;
+    border-radius: 10px;
+    border: 0.1px black inset;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.readmore:hover {
+    background-color: white;
+    color: rgb(25, 25, 153);
+    border: 2px black outset;
+    font-size: 105%;
+}
+
+#nword1 {
+    font-size: 150%;
+}
+
+#nword2 {
+    font-size: 150%;  
+}
