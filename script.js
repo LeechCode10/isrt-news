@@ -11,3 +11,7 @@ function stop() {
 function fuckit() {
     document.getElementById("nword3").innerHTML = "Fuck it man! I am not putting another Read more button next time."
 }
+
+function rickroll() {
+    window.location.href = "https://youtu.be/xvFZjo5PgG0?si=uoxvYQnfXFLu_h_C"
+}

@@ -76,6 +76,10 @@ h1 {
     color: black;
 }
 
+.title-and-preview{
+    flex-wrap: none;
+}
+
 .teleporter:hover, .titlelink:hover {
     text-decoration: none;
 }
