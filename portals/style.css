@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-weight: 500;
 }
 body {
     margin-left: 2vh;
@@ -212,4 +213,110 @@ p {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0, 0.5);
+    -moz-text-decoration-color: rgb(0, 0, 0, 0.5);
+}
+
+.ad7 {
+    height: 250px;
+    width: 300px;
+    background-image: url('formula\ derivation.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.ad7:hover {
+    background-image: url('shhh.jpg');
+}
+
+
+.portals {
+    padding: 20px;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+.portal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.teleporter, .titlelink {
+    font-size: 150%;
+    text-decoration: underline;
+    color: black;
+}
+
+.teleporter:hover, .titlelink:hover {
+    text-decoration: none;
+}
+
+
+.ad8 {
+    height: 250px;
+    width: 300px;
+    background-image: url('whiteboarding.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ad8:hover {
+    background-image: url('shhh.jpg');
+}
+
+
+.portals {
+    padding: 20px;
+}
+
+.portal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.teleporter, .titlelink {
+    font-size: 120%;
+    text-decoration: underline;
+    color: black;
+}
+
+.teleporter:hover, .titlelink:hover {
+    text-decoration: none;
+}
+
+.shortdesc {
+    font-size: 120%;
 }
