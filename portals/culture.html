@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
     <title>News.ISRT</title>
+    <script src = 'portal.js'></script>
 </head>
 <body>
     <div class="logo">
@@ -60,24 +61,59 @@
 
     <div class="comment-section">
 
-        <div class="comment"><br><img src="hasnat_abdullah.jpg" alt="shoinik" class="dp"><br><br><h3 class="commenter">Rajpother Shoinik</h3><p class="text-comment">
+        <div class="topcomment"><br><img src="hasnat_abdullah.jpg" alt="shoinik" class="dp"><br><br><h3 class="commenter">Rajpother Shoinik</h3><p class="text-comment">
             Bhaiya dake nai mane??? <br>
             Ei tora raju te ay
         </p></div>
 
-        <div class="comment"><br><img src="nigga.jpg" alt="niqqa" class="dp"><br><br><h3 class="commenter">Nigga</h3><p class="text-comment">
+        <div class="topcomment"><br><img src="nigga.jpg" alt="niqqa" class="dp"><br><br><h3 class="commenter">Nigga</h3><p class="text-comment">
             Admin tore paiya nei <br> khobor ase tor
         </p></div>
-        <div class="comment"><br><img src="emoji.jpg" alt="tasnuva" class="dp"><br><br><h3 class="commenter">Tasnuva NSU</h3><p class="text-comment">
+        <div class="topcomment"><br><img src="emoji.jpg" alt="tasnuva" class="dp"><br><br><h3 class="commenter">Tasnuva NSU</h3><p class="text-comment">
             Chelera Vaiya dakle problem koi bujhlam na toh
         </p></div>
         
         
-        <div class="comment"><br><img src="bhotka.jpg" alt="bhotka" class="dp"><br><br><h3 class="commenter">Bhotka</h3><p class="text-comment">
+        <div class="topcomment"><br><img src="bhotka.jpg" alt="bhotka" class="dp"><br><br><h3 class="commenter">Bhotka</h3><p class="text-comment">
             Vy Genji da 5XL size er hoibo?
         </p></div>
     </div>
+  <div class="comment-form">
+    <input type="text" id="nickname" placeholder="Enter your nickname">
+    <textarea id="comment" placeholder="Write a comment"></textarea>
+    <button onclick="addComment()" id = 'submitbutton'>Post Comment</button>
+  </div>
 
-    </p>
+  <div id="commentsection"></div>
+
+
+  <br><br>
+      <h1 class="comment-heading">More News</h1>
+    <br>
+<div class="portal">
+                <img src="homeless.jpg" alt="Ore Magi" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\homeless.html">Master's Student Bursts into tears as homeless guy asks, 'What is the color of your thesis?'</a></h3>
+                <p class = 'shortdesc'> Racism didn't peak when Black people were enslaved. It peaked when a homeless beggar...</p>
+            </div>
+        </div>
+
+    <br>
+    <div class="portal">
+    <img src="ai-title-image.png" alt="Piccione Macchina" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\ai_exists.html">Netigen Students are Highly Concerned if ISRT Authority knows about the Existence of AI</a></h3>
+                <p class = 'shortdesc'>Devin AI just automated every analyst job, while academia’s finest still cite ‘Breast-Fed Child Concerned Researches.’...</p>
+
+    </div>
+    </div>
+    <br>
+
+        <div class="portal">
+                <img src="bangaboltu.jpg" alt="bongoboltu dead" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\ff.html">ISRT changes its name to FF</a></h3>
+                <p class = 'shortdesc'>FF, it doesn't mean Final Fantasy, not Forfeited Funds, not Free Fire, not even Factory of Fools. <br> It means...</p>
+                
+            </div>
+        </div>
+
 </body>
 </html>

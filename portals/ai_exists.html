@@ -9,52 +9,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
     <title>News.ISRT</title>
+    <script defer src="portal.js"></script>
 </head>
 <body>
     <div class="logo">
         <div class="logo-part1"><h3>NEWS.</h3></div>
         <div class="logo-part2"><h3>ISRT</h3></div>
     </div>
+
     <br><br><br>
     <div class="news-title">
-    <h1>Netigen Students are Highly Concerned if ISRT Authority knows about the Existence of AI</h1>
+        <h1>Netigen Students are Highly Concerned if ISRT Authority knows about the Existence of AI</h1>
     </div>
+
     <p>Devin AI just automated every analyst job, while academia’s finest still cite ‘Breast-Fed Child Concerned Researches.’ Meanwhile, students rebranded us as the Scamstitute of Scamstical Torture—thanks to ‘Applied Data Science’ being 0% applied, 100% existential crisis. Biostat isn’t a field; it’s the air you’re forced to breathe. Congrats, your personality is now ‘peer-reviewed.</p>
     <p>LLMs took over, but students still call it the Scamstitute of Scamstical Torture—scammed by 'Applied Data Science' (0% applied, 100% despair). Biostat isn’t a subject, it’s Stockholm Syndrome. Academia? Congrats, your personality is now ‘H-index victim.</p>
-    
-    
-    <div class="ad-container">
-    <div class="ad1"></div>
-    </div>
-
-
-
-    <p>BRACU’s AI kids are playing Fullstack Hunger Games while we’re still stuck in DU’s year system – academia’s version of a government job. ISRT culture? Salam counts at all-time lows, seniors too burnt out to haze, and 8-to-5 classes turned us into math-wage slaves. Pvt unis get GPT-5; we get chalkboard relics and a ‘R > Python’ cult (ML here means Memorized Lectures). Finally installing pandas… in 2030.
-    </p>
 
     <div class="ad-container">
-    <div class="ad2"></div>
+        <div class="ad1"></div>
     </div>
 
-        <p>Forget AI—your core curriculum features mandatory peasant cosplay and statistical trauma bonding in Biostats. Who needs TensorFlow when you’ve mastered the ancient art of syllabus necromancy?
-           Who needs hackathons when you can perfect your forced-cultural-performance resume? But rejoice! The stats department finally spawned a Biostats PhD—just as Grameen and Banglalink dissolved from waiting for a seminar offer. Progress!
-        And if you survived Pitha Utshob’s logistical hell? Congrats. You’re now ripe for students' club hazing—the only applied leadership experience this uni offers is to tolerate inexperienced losers losing mind at you for their own mismanagement.
+    <p>BRACU’s AI kids are playing Fullstack Hunger Games while we’re still stuck in DU’s year system – academia’s version of a government job. ISRT culture? Salam counts at all-time lows, seniors too burnt out to haze, and 8-to-5 classes turned us into math-wage slaves. Pvt unis get GPT-5; we get chalkboard relics and a ‘R > Python’ cult (ML here means Memorized Lectures). Finally installing pandas… in 2030.</p>
 
-    </p>
+    <div class="ad-container">
+        <div class="ad2"></div>
+    </div>
+
+    <p>Forget AI—your core curriculum features mandatory peasant cosplay and statistical trauma bonding in Biostats. Who needs TensorFlow when you’ve mastered the ancient art of syllabus necromancy? Who needs hackathons when you can perfect your forced-cultural-performance resume? But rejoice! The stats department finally spawned a Biostats PhD—just as Grameen and Banglalink dissolved from waiting for a seminar offer. Progress! And if you survived Pitha Utshob’s logistical hell? Congrats. You’re now ripe for students' club hazing—the only applied leadership experience this uni offers is to tolerate inexperienced losers losing mind at you for their own mismanagement.</p>
+
     <br>
-    <h1 class="comment-heading">Comments</h1>
+    <h1 class="comment-heading">Top Comments</h1>
 
     <div class="comment-section">
-
-        <div class="comment"><br><img src="xavier.jpg" alt="xavier" class="dp"><br><br><h3 class="commenter">Xavier</h3><p class="text-comment">Dear admin, we think you got some balls. <br> Why don't you send us the pictures of them?</p></div>
-
-        <div class="comment"><br><img src="kuddus.jpg" alt="xavier" class="dp"><br><br><h3 class="commenter">Anonymous Kuddus</h3><p class="text-comment">Bro kivaba porla dabian hobo?</p></div>
-        <div class="comment"><br><img src="tanubibi.jpg" alt="xavier" class="dp"><br><br><h3 class="commenter">Tanu Bibi</h3><p class="text-comment">karo kace 2000tk Bkash hoba? <br>kalke ferot diya dibo UwU</p></div>
-        
-        
-        <div class="comment"><br><img src="vlogs.jpg" alt="xavier" class="dp"><br><br><h3 class="commenter">BD Bus Travel Vlog</h3><p class="text-comment">follow dile sathe sathe pasa paban geranti <br> like kore pasa takun</p></div>
+        <div class="topcomment"><br><img src="xavier.jpg" alt="xavier" class="dp"><br><br><h3 class="commenter">Xavier</h3><p class="text-comment">Dear admin, we think you got some balls. <br> Why don't you send us the pictures of them?</p></div>
+        <div class="topcomment"><br><img src="kuddus.jpg" alt="kuddus" class="dp"><br><br><h3 class="commenter">Anonymous Kuddus</h3><p class="text-comment">Bro kivaba porla dabian hobo?</p></div>
+        <div class="topcomment"><br><img src="tanubibi.jpg" alt="tanubibi" class="dp"><br><br><h3 class="commenter">Tanu Bibi</h3><p class="text-comment">karo kace 2000tk Bkash hoba? <br>kalke ferot diya dibo UwU</p></div>
+        <div class="topcomment"><br><img src="vlogs.jpg" alt="vlogs" class="dp"><br><br><h3 class="commenter">BD Bus Travel Vlog</h3><p class="text-comment">follow dile sathe sathe pasa paban geranti <br> like kore pasa takun</p></div>
     </div>
 
-    </p>
+  <div class="comment-form">
+    <input type="text" id="nickname" placeholder="Enter your nickname">
+    <textarea id="comment" placeholder="Write a comment"></textarea>
+    <button onclick="addComment()" id = 'submitbutton'>Post Comment</button>
+  </div>
+
+  <div id="commentsection"></div>
+  <div id="commentsection"></div>
+  <br><br>
+  <h1 class="comment-heading">More News</h1>
+    <div class="portals">
+    <div class="portal">
+                <img src="culture.png" alt="culture" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\culture.html">Tension arises as Freshman Female Student called 'Bhai' instead of 'Bhaiyaaaa' to a Final Year Student</a></h3>
+                <p class = 'shortdesc'>The Senior-Junior bonding is at stake since last week (on Friday), one of the stunning freshman...</p>
+            </div>
+            </div>
+
+    <br>
+    <div class="portal">
+    <img src = 'bangaboltu.jpg' alt="bongoboltu" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\ff.html">ISRT changes its name to FF</a></h3>
+                <p class = 'shortdesc'>FF, it doesn't mean Final Fantasy, not Forfeited Funds, not Free Fire, not even Factory of Fools. <br> It means...</p>
+
+    </div>
+    </div>
+    <br>
+
+        <div class="portal">
+                <img src="homeless.jpg" alt="Ore Magi" class="title-image">
+                <div class="title-and-preview"><h3 class="teleporter"><a class = "titlelink" href="portals\homeless.html">Master's Student Bursts into tears as homeless guy asks, 'What is the color of your thesis?'</a></h3>
+                <p class = 'shortdesc'> Racism didn't peak when Black people were enslaved. It peaked when a homeless beggar...</p>
+            </div>
+        </div>
+    
+
 </body>
 </html>

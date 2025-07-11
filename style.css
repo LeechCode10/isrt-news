@@ -61,8 +61,8 @@ h1 {
 }
 
 .title-image {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -122,4 +122,130 @@ p {
 
 #nword2 {
     font-size: 150%;  
+}
+
+
+
+.comment-form {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form input {
+    font-family: "Antic Didone", serif;
+}
+.comment-form text {
+    font-family: "Antic Didone", serif;
+}
+.comment-form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#commentsection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.commentcontent {
+  margin-bottom: 8px;
+  font-family: "Antic Didone", serif;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#submitbutton {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#submitbutton:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+
+}
+
+.replies {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 50px;
+    border-left: 2px solid #ccc;
+}
+
+.reply {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    font-family: "Antic Didone", serif;
+}
+
+.reply-input, .reply-textarea {
+    display: block;
+    width: 60%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.reply-input {
+    font-family: "DM Serif Text", serif;
+}
+
+.reply-textarea {
+    font-family: "Antic Didone", serif;
+}
+
+
+.reply-btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply-btn:hover {
+    background-color: #0056b3;
 }
