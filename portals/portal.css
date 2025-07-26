@@ -450,3 +450,42 @@ p {
 .reply-btn:hover {
     background-color: #0056b3;
 }
+
+pre {
+            background-color: #333; /* Dark background for code */
+            color: #eee; /* Light text color */
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto; /* Adds horizontal scroll if code is too wide */
+        }
+code {
+            font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}
+
+.ad9 {
+    height: 400px;
+    width: 500px;
+    background-image: url('images/infinity_castle.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ad10 {
+    height: 350px;
+    width: 400px;
+    background-image: url('images/vallagena.png');
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ad10:hover {
+    background-image: url('images/10takadao.png');
+}
