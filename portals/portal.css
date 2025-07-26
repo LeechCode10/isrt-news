@@ -474,7 +474,7 @@ code {
     -o-border-radius: 10px;
 }
 
-.ad10 {
+.ad-10 {
     height: 400px;
     width: 500px;
     background-image: url('images/10takadao.png');
@@ -486,6 +486,6 @@ code {
     -o-border-radius: 10px;
 }
 
-.ad10:hover {
+.ad-10:hover {
     background-image: url('images/vallagena.png');
 }
