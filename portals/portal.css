@@ -477,7 +477,7 @@ code {
 .ad01 {
     height: 400px;
     width: 500px;
-    background-image: url('images/10takadao.png');
+    background-image: url('images/vallagena.png');
     background-size: cover;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -487,5 +487,5 @@ code {
 }
 
 .ad01:hover {
-    background-image: url('images/vallagena.png');
+    background-image: url('images/10takadao.png');
 }
